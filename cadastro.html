@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SITE</title>
+    <script src="js/loja.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav id="nav">
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="novidades.html">Novidades</a></li>
+                <li><a href="cadastro.html">Login</a></li>
+                <li><a href="" onclick="sair()">Sair</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <div class="caixaLogin">
+        <h1>
+            <b>Autenticação</b>
+        </h1>
+        <h2 id="msgBV"></h2>
+        <br><br>
+        <input type="text" id="login" placeholder="Usuário">
+        <br><br>
+        <input type="password" id="senha" placeholder="Senha">
+        <br><br>
+        <button onclick="verificarLogin()">Enter</button>
+    </div>
+</body>
+</html>
